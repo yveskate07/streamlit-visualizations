@@ -253,8 +253,8 @@ if Choices=='Scrape data using beautifulSoup':
 
 
 elif Choices == 'Download scraped data':
-    poules_lapins_pigeons = pd.read_csv('poules-lapins-et-pigeons-web-scraper.csv')
-    autres_animaux = pd.read_csv('autres-animaux-web-scraper.csv')
+    poules_lapins_pigeons = pd.read_csv('data/poules-lapins-et-pigeons-web-scraper.csv')
+    autres_animaux = pd.read_csv('data/autres-animaux-web-scraper.csv')
 
     load(poules_lapins_pigeons, 'poules_lapins_pigeons data', '1', '101')
     load(autres_animaux, 'autres_animaux data', '2', '102')
