@@ -1,0 +1,28 @@
+.stButton>button {
+    font-size: 12px;
+    height: 3em;
+    width: 25em;
+}
+.stSidebar {
+    background-color: #e5e3ae;
+    color: black;
+    
+}
+
+.st-emotion-cache-a6qe2i p{
+ color: black;
+}
+
+.stAppHeader{
+    background-color: #deded3;
+    color: black
+}
+
+.stMain {
+    background-color: #94e5bb;
+}
+
+.stMainBlockContainer{
+    max-width: 90%;
+}
+
